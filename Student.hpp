@@ -11,6 +11,8 @@ public:
     ~Student();
     
     void display() const;
+
+    int average();
     
 private:
     std::string name;

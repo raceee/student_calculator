@@ -23,3 +23,11 @@ void Student::display() const {
     std::cout << std::endl;
 }
 
+int Student::average(){
+    int sum = 0;
+    for (int i = 0; i < numGrades; i++) {
+        sum += grades[i];
+    }
+    return sum / numGrades;
+}
+

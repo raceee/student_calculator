@@ -11,6 +11,7 @@ int main(){
     Student student("John Doe", grades, numGrades);
 
     student.display();
+    std::cout << "Average: " << student.average() << std::endl;
     return 0;
     
 }
