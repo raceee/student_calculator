@@ -5,14 +5,15 @@
 
 class Student {
 public:
-    // Constructor
+    
     Student (std::string name, int* grades, int numGrades);
     
     ~Student();
     
     void display() const;
 
-    int average();
+    int average() const;
+    
     
 private:
     std::string name;
